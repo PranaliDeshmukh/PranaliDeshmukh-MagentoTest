@@ -1,0 +1,9 @@
+<?xml version="1.0"?>   
+<layout version="0.1.0">   
+  <fashionoutlettheme_index_index>   
+    <reference name="content">   
+      <block type="fashionoutlettheme/index" name="fashionoutlettheme_index" template="fashionoutlettheme/index.phtml"/>   
+    </reference>   
+  </fashionoutlettheme_index_index>   
+</layout>   
+	

@@ -1,0 +1,11 @@
+<?php 
+$blockid = 'fashionoutlet_news';
+$block = Mage::getModel('cms/block')->load($blockid);
+?>
+<h1><?php echo $block->getTitle(); ?></h1>
+<div class="content">
+<?php
+echo $this->getLayout()->createBlock('cms/block')->setBlockId('fashionoutlet_news')->toHtml(); 
+?>
+</div>
+
